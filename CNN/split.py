@@ -1,3 +1,6 @@
+## train rate에 맞춰 train 데이터 valid 데이터 분할 코드
+
+
 import os
 import random
 import shutil
@@ -114,3 +117,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

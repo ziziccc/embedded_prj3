@@ -1,3 +1,6 @@
+##  keras 모델과 numpy 가중치 파일 비교 테스트 코드 
+
+
 import os
 import numpy as np
 from tensorflow import keras
@@ -260,3 +263,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

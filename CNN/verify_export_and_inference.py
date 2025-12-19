@@ -13,8 +13,7 @@ IMG_SIZE = 32
 MODEL_PATH = "C:\\cnn\\seat_multilabel_cnn.h5"   # 또는 .keras
 EXPORT_DIR = "C:\\cnn\\export"                   # export_weights_for_zybo.py에서 쓴 폴더
 
-# 테스트해볼 단일 이미지 (train/val에서 하나 골라서 넣으면 됨)
-TEST_IMAGE_PATH = "C:\\dataset\\val\\bag\\7_534_bag_000.jpg"  # 원하는 파일 경로로 수정
+TEST_IMAGE_PATH = "C:\\dataset\\val\\bag\\7_534_bag_000.jpg"  # 테스트 이미지 파일 경로
 
 # 3-class 이름 (사람/가방/빈자리)
 CLASS_NAMES = ["PERSON", "BAG", "EMPTY"]
@@ -263,4 +262,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

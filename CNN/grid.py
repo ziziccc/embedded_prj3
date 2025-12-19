@@ -1,3 +1,6 @@
+## 입력 이미지 분할 및 roi 형성 코드
+
+
 import os
 import numpy as np
 import tensorflow as tf
@@ -151,3 +154,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

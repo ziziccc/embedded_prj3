@@ -1,3 +1,5 @@
+## CNN 모델 제작 코드
+
 from sklearn.metrics import confusion_matrix, classification_report
 import matplotlib.pyplot as plt
 import os
@@ -216,3 +218,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

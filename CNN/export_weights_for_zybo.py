@@ -1,20 +1,4 @@
-"""
-Keras 모델 가중치를
-- 레이어별 .npy
-- 레이어별 C 헤더(.h, const float 배열)
-- 공통 메타 헤더(classes.h, preprocessing.h, activations.h)
-로 export.
-
-주요 반영:
-- 3-class softmax 모델을 가정 (출력 3 확인)
-- 클래스 순서/이름 메타 생성 (대시보드/펌웨어와 동기화)
-- Rescaling(1/255) 전처리 상수화
-- softmax/argmax 유틸 제공
-
-필요 시 아래 경로만 프로젝트 맞게 수정:
-  MODEL_PATH  : Keras 모델 파일(.h5 / .keras)
-  EXPORT_DIR  : 결과 저장 폴더
-"""
+## keras 모델에서 numpy형식 weight.h 추출 코드
 
 import os
 import numpy as np
@@ -185,3 +169,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

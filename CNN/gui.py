@@ -1,16 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Seat Dashboard (legend + summary, no blinking, no layout jitter)
-- Fixed-size window (no resize)
-- Top bar with fixed-size container + monospaced clock
-- Seats drawn on fixed-size Canvas with absolute pixel positions
-- Bottom legend shows color -> state mapping
-- Right summary panel shows counts and seat lists per state
-- Parses either:
-  (A) "[12345 ms] Seat 3: state=1, misuse=0"
-  (B) "01230103" (8 digits)   <-- updated
-"""
+##  PC UI 코드
 
 import argparse
 import re
@@ -305,3 +293,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

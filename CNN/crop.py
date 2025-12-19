@@ -1,3 +1,5 @@
+## 각 클래스별 원본 데이터에서 객체의 좌표 위치만 crop
+
 import os
 import cv2
 
@@ -142,3 +144,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

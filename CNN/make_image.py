@@ -1,3 +1,5 @@
+## 이미지 증강 코드
+
 import os
 import numpy as np
 from tensorflow.keras.preprocessing.image import load_img, img_to_array, array_to_img
@@ -149,3 +151,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
